@@ -1,0 +1,32 @@
+.banner {
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.banner-content {
+  font-family: lobster;
+  font-size: 65px;
+  color: white;
+  text-align: center;
+  position: absolute;
+}
+
+.to-homepage {
+  position: absolute;
+  left: 30px;
+  top: 100px;
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+  }
+  a:hover {
+    color: #73FDFF;
+  }
+}
+
