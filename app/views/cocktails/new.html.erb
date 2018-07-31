@@ -3,6 +3,8 @@
     <h2>Add a cocktail</h2>
     <%= simple_form_for @cocktail do |f| %>
     <%= f.input :name %>
+     <%= f.input :photo %>
+      <%= f.input :photo_cache, as: :hidden %>
       <br>
       <div id="add-button-container">
         <%= f.submit "add cocktail", class: "btn btn-primary button-dose" %>
