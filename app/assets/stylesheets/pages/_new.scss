@@ -1,7 +1,42 @@
 .add-dose-container {
-  margin-top: 30px;
+  height: 100vh;
+  padding-top: 80px;
   h2 {
     font-family: lobster;
   }
+  background-image: url("wallpaper.jpg");
+  background-size: cover;
 }
+
+.form {
+  background-color: white;
+  height: 350px;
+  padding: 20px 10px 10px 10px;
+  width: 450px;
+  border-radius: 10px;
+  border: 1px solid black;
+  position: relative;
+  margin: 0 auto;
+}
+
+.form-cocktail {
+  background-color: white;
+  height: 250px;
+  padding: 20px 10px 10px 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+  width: 450px;
+  position: relative;
+  margin: 0 auto;
+}
+
+#add-button-container {
+  display: flex;
+  align-items: center;
+}
+
+.button-dose {
+  width: 200px !important;
+  margin: auto;
+  }
 

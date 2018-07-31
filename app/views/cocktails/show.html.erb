@@ -7,7 +7,8 @@
 
 <h2 class="cocktail-title-show"><%= @cocktail.name %></h2>
 
-<h4>Doses</h4>
+<h3>Doses</h3>
+<div class="font-size">
 <%= link_to "Add doses", new_cocktail_dose_path(@cocktail.id)%>
 <br><br>
 
@@ -19,6 +20,7 @@
     <br><br>
   <% end %>
   </ul>
+  </div>
 </div>
 
 
