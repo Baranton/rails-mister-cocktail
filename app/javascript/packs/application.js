@@ -8,4 +8,12 @@
 // layout file, like app/views/layouts/application.html.erb
 
 import 'bootstrap';
+import Typed from 'typed.js';
+
+import { loadDynamicBannerText } from 'components/banner';
+ const cocktailsIndex = document.querySelector('.cocktails.index');
+ if (cocktailsIndex) {
+  console.log("hello");
+  loadDynamicBannerText();
+};
 

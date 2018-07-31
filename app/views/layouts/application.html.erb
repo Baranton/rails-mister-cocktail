@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
   </head>
 
-  <body>
+  <body class="<%= controller_name %> <%= action_name %>">
     <%= render "shared/navbar" %>
     <%= yield %>
     <%= javascript_include_tag 'application' %>
